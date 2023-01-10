@@ -20,7 +20,6 @@ const AskQuestion = () => {
 
    const handleSubmit = (e)=>{
       e.preventDefault();
-      console.log({questionTitle,questionBody,questionTag})
       dispatch(askQuestion({questionTitle,questionBody,questionTag,userPosted: User.result.name, userId: User?.result?._id},navigate))
     }
 
@@ -28,7 +27,7 @@ const AskQuestion = () => {
     <div className="ask-question">
       <div className="ask-quest-container">
       <h1>Ask a public Question </h1>
-      <form onSubmit={handleSubmit}>
+      <form className='askquesform' onSubmit={handleSubmit}>
         <div className="ask-form-container">
           <label htmlFor="ask-ques-title">
             <h4> Title</h4>

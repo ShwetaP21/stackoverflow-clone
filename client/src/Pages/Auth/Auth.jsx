@@ -64,7 +64,7 @@ const Auth = () => {
           }
           </label>
           {
-            isSignup && (<label htmlFor="check"><input type="checkbox" name='check'/><p style={{fontSize:"13px"}}>Opt-in to receive occasional <br /> product updates, user research invitations, <br /> company announcements, and digests.</p></label>)
+            isSignup && (<label htmlFor="check"><input type="checkbox" name='check'/><p style={{fontSize:"13px",paddingLeft:"10px"}}>Opt-in to receive occasional <br /> product updates, user research invitations, <br /> company announcements, and digests.</p></label>)
           }
           <button type='submit' className='auth-btn'>{isSignup?'Sign up':'Login'}</button>
           {isSignup && <p style={{color:"#666767",fontSize:"13px"}}> By clicking “Sign up”, you agree to our 

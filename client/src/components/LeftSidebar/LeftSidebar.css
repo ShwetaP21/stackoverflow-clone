@@ -43,3 +43,21 @@ font-size: 13px;
     background-color: rgb(225, 225, 225);
     border-right: solid 3px #ef8236;
 }
+
+@media (max-width: 375px) {
+    .left-sidebar{
+        width: 100px;
+    }
+   
+}
+@media (max-width: 475px) {
+    .left-sidebar{
+        width: 120px;
+    }
+}
+
+@media (max-width: 770px) {
+    .left-sidebar{
+        width: 140px;
+    }
+}

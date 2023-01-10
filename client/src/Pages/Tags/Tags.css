@@ -34,3 +34,9 @@
     color: #323232;
     line-height: 17px;
 }
+
+@media (max-width: 588px) {
+     .tags-h1{
+        font-size: 30px;
+    }
+}

@@ -67,3 +67,15 @@
     border-radius: 2px;
     font-size: 13px;
 }
+
+@media (max-width: 864px) {
+    .right-sidebar{
+        width: 200px;
+    }
+}
+
+@media (max-width: 752px) {
+    .right-sidebar{
+        display: none;
+    }
+}
